@@ -1456,3 +1456,80 @@ display:block;
     padding-bottom: 150px !important;
     background: url(http://apusthemes.com/wp-demo/cowork/wp-content/uploads/2017/04/faculties.jpg?id=187) left top no-repeat !important;
 }
+.first-columnEventPage {
+    position: relative;
+    padding-right: 25px;
+    border-right: #2A2A2A solid 1px;
+}
+
+.entry-titlepage {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+}
+.entry-titlepage a{
+    color: #000;
+    text-decoration: none;
+}
+.entry-titlepage a:focus,
+.entry-titlepage a:hover{
+    text-decoration: none;
+    color: #222;
+}
+.entryTitleColorpage{
+    color: #000;
+}
+.eventpage_item{
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    margin: 20px 0;
+}
+.eventpage_item:hover{
+    background: #fff;
+    -webkit-box-shadow: -1px 0 8px 8px #e2e2e3;
+    box-shadow: -1px 0 8px 8px #e2e2e3;
+}
+
+.last-columnLeftSide {
+    padding-left: 28px;
+}
+.event-meta {
+    margin: 15px 0;
+}
+.event-meta .time {
+    padding-left: 20px;
+}
+
+.entry-contentpage {
+    padding-top: 10px;
+}
+.btn-event {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 20px;
+    background: transparent;
+    color: #1e1e1e;
+    padding: 17px 30px !important;
+    border: #1e1e1e solid 2px !important; 
+    border-radius: 0 !important;
+}
+
+.btn-event:hover{
+    background: #1e1e1e;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* event page css ends here */
