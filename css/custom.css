@@ -1442,3 +1442,17 @@ display:block;
     line-height: 30px;
 }
 /* pricing page ends here */
+
+/* event page css starts here */
+.event_containerPage{
+    padding-top: 110px !important;
+    width: 100%;
+    transition: opacity 0.5s ease;
+    box-sizing: border-box;
+    padding-left: 68.5px;
+    padding-right: 68.5px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 150px !important;
+    background: url(http://apusthemes.com/wp-demo/cowork/wp-content/uploads/2017/04/faculties.jpg?id=187) left top no-repeat !important;
+}
