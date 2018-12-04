@@ -1397,3 +1397,48 @@ display:block;
     right: -35px;
   }
 /* client slider footer end  */
+
+
+/* pricing page css starts here */
+.pricing_containerTop{
+    padding-top: 110px !important;
+    width: 100%;
+    transition: opacity 0.5s ease;
+    box-sizing: border-box;
+    padding-left: 68.5px;
+    padding-right: 68.5px;
+    overflow: hidden;
+    padding-bottom: 155px !important;
+    background: url(http://apusthemes.com/wp-demo/cowork/wp-content/uploads/2017/04/pricing-bg.jpg?id=2079) left top no-repeat !important;
+}
+
+
+.pricing_banner{
+    margin-bottom: 30px;
+    position: relative;
+    padding: 80px 0 0 0;
+    background: transparent;
+}
+
+.pricing_banner .pricingpage-title {
+    position: relative;
+    font-size: 45px;
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 70px;
+}
+
+.pricingpage-description {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 21px;
+    color: #000;
+}
+
+.pricingpage-description p{
+    margin: 0px;
+    line-height: 30px;
+}
+/* pricing page ends here */
