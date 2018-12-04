@@ -1523,13 +1523,59 @@ display:block;
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
 /* event page css ends here */
+
+
+/* facility page design starts here */
+.facilityPage_container{
+    width: 100%;
+    background: #fff;
+    padding: 106px 0 60px 0;
+}
+
+span.facilityTab-icon{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 0 0 10px 0;
+    border:#000 solid 1px;
+    align-items: center;
+    font-size: 25px;
+    line-height: 25px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.facilityTab-icon > i.fa{
+    margin-top: 17px;
+    font-size: 34px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    border-color:transparent !important;
+}
+
+.nav.nav-tabs.justify-content-center{
+    border-color:transparent !important;
+}
+
+div.tab-pane{
+    background-color: #f8f8f8;
+    border: #f0f0f0 solid 1px;
+}
+
+.tab-row{
+    padding-top: 90px !important;
+    padding-right: 30px !important;
+    padding-bottom: 90px !important;
+    padding-left: 30px !important;
+}
+
+.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    width: 100%;
+}
+/* facility page ends here */
