@@ -1577,5 +1577,12 @@ div.tab-pane{
     padding-left: 7.5px;
     padding-right: 7.5px;
     width: 100%;
+    text-align: left;
+}
+
+.vc_imageright{
+    width: 100%;
+    display: block;
+    margin: 10px 0;
 }
 /* facility page ends here */
