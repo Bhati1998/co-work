@@ -1716,3 +1716,68 @@ div.tab-pane{
     border-radius: 0 !important;
 }
 /* contact us page css ends here */
+
+
+/* faq page css starts here */
+
+.faq_containerPage{
+    width: 100%;
+    min-height: 150px;
+    transition: opacity 0.5s ease;
+    box-sizing: border-box;
+}
+
+.faqPage_title{
+    position: relative;
+    font-size: 45px;
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 70px;
+}
+
+.faq_accordionText{
+    color: #666 !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+}
+
+.faq_accordionText:hover{
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+.faq_accordionParagraph{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.gap_form{
+    margin: 45px 0 !important;
+}
+
+.btn_groupSingle{
+    background: transparent !important;
+    color: #333 !important ;
+    border-radius: 0 !important;
+    padding: 17px 35px !important;
+    margin: 0 20px 0 0 !important;
+    border: #333 solid 2px !important;
+}
+.btn_groupSingle.active{
+    background: #333 !important;
+    color: #fff !important ;
+    border-radius: 0 !important;
+    padding: 17px 35px !important;
+    margin: 0 20px 0 0 !important;
+    border: #333 solid 2px !important;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,.btn_groupSingle.active,
+.btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff !important;
+    background-color: #333 !important;
+    border: #333 solid 2px !important;
+}
+/* faq page css ends here */
