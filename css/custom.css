@@ -1533,18 +1533,42 @@ display:block;
     padding: 106px 0 60px 0;
 }
 
-span.facilityTab-icon{
+.nav-link > span.facilityTab-icon
+{
     display: block;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     padding: 0 0 10px 0;
-    border:#000 solid 1px;
+    border:#ababab solid 1px;
+    align-items: center;
+    font-size: 25px;
+    line-height: 25px;
+    color: #ababab;
+    margin-bottom: 10px;
+}
+
+.nav-link.active > span.facilityTab-icon
+{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 0 0 10px 0;
+    border:#333 solid 1px;
     align-items: center;
     font-size: 25px;
     line-height: 25px;
     color: #333;
     margin-bottom: 10px;
+}
+
+span.facilityIcon_text{
+    color: #ababab;
+}
+
+.nav-link.active > span.facilityIcon_text{
+    color: #333;
 }
 
 .facilityTab-icon > i.fa{
@@ -1584,5 +1608,15 @@ div.tab-pane{
     width: 100%;
     display: block;
     margin: 10px 0;
+}
+
+.ourservice-heading {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    line-height: 27px;
+    margin-left: 13px;
 }
 /* facility page ends here */
