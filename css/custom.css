@@ -1781,3 +1781,31 @@ div.tab-pane{
     border: #333 solid 2px !important;
 }
 /* faq page css ends here */
+
+
+/* login sign up page sections */
+.nav-tabs .nav-link.loginTabs{
+    padding: 20px 35px;
+}
+
+.nav-tabs .nav-link.loginTabs.active{
+    background: transparent;
+    border: #333 solid 1px !important;
+    border-bottom: transparent !important;
+    border-radius: 0 !important;
+    padding: 20px 35px;
+}
+
+span.facilityIcon_textLogin{
+    color: #ababab;
+}
+
+.nav-link.active > span.facilityIcon_textLogin{
+    color: #333;
+}
+
+div.tab-pane.active.show{
+    border: #333 solid 1px !important;
+}
+
+/* end login signup page section */
