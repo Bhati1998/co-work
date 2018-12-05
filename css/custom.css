@@ -1620,3 +1620,57 @@ div.tab-pane{
     margin-left: 13px;
 }
 /* facility page ends here */
+
+
+/* about us page css starts here */
+.aboutUs_containerPage{
+    padding-top: 110px !important;
+    width: 100%;
+    min-height: 400px;
+    transition: opacity 0.5s ease;
+    box-sizing: border-box;
+    padding-left: 68.5px;
+    padding-right: 68.5px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 150px !important;
+    background: url(http://apusthemes.com/wp-demo/cowork/wp-content/uploads/2017/04/about-us-bg.jpg) left top no-repeat !important;
+}
+
+.aboutusPageContainerText{
+    width: 100%;
+    background: #fff;
+    padding: 60px 0 60px 0;
+}
+
+.aboutpage-title{
+    position: relative;
+    font-size: 45px;
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 70px;
+}
+
+.aboutPage_description{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 21px;
+    color: #000;
+}
+
+.aboutPage_Para{
+    width: 100%;
+    text-align: left;
+    padding: 30px 0;
+}
+
+.aboutPage_Para p{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+/* about us page css ends */
