@@ -33,14 +33,14 @@
       color: #000;
       text-transform: uppercase;
       text-align: center;
-      line-height: 70px;
+      line-height: 30px;
     }
     a.navbar-brand > img {
       width: 120px !important;
       height: auto;
     }
     .about_title {
-      font-size: 19px;
+      font-size: 17px;
       margin-bottom: 30px;
       position: relative;
       padding: 0px;
@@ -53,7 +53,7 @@
       font-family: Lato;
     }
     .team_title {
-      font-size: 19px;
+      font-size: 17px;
       margin-bottom: 30px;
       position: relative;
       padding: 0px;
@@ -64,6 +64,135 @@
       letter-spacing: 0.4px;
       text-align: center;
   
+    }
+
+    .foote_bottom_ul_amrc {
+      list-style-type: none;
+      padding: 0px;
+      display: initial;
+      margin-top: 10px;
+      margin-right: auto;
+      margin-bottom: 10px;
+      margin-left: auto;
+    }
+    .pricing_banner .pricingpage-title {
+      position: relative;
+      font-size: 16px;
+      font-weight: 800;
+      color: #000;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 70px;
+    }
+    .pricingpage-description {
+      text-align: center;
+      margin-top: 1px;
+      font-size: 14px;
+      color: #000;
+    }
+
+    div.event_containerPage {
+      padding-top: 110px !important;
+      width: 100%;
+      transition: opacity 0.5s ease;
+      box-sizing: border-box;
+      padding-left: 68.5px;
+      padding-right: 68.5px;
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 50px !important;
+      background: url(http://apusthemes.com/wp-demo/cowork/wp-content/uploads/2017/04/faculties.jpg?id=187) left top no-repeat !important;
+    }
+    .facilityPage_container {
+      width: 100%;
+      background: #fff;
+      padding: 50px 0 60px 0;
+    }
+    .description p {
+      margin: 0px;
+      font-size: 13px;
+      justify-content: left;
+      color: #333;
+      line-height: 28px;
+      font-weight: 400;
+      font-family: Montserrat;
+      text-align: left;
+    }
+    .img-wrapper{
+      display: none !important;
+    }
+    .entry-content {
+      padding-top: 20px;
+    }
+    .eventpage_item {
+      width: 100%;
+      padding: 0px;
+      margin: 40px 0;
+    }
+    .col-sm-3.entry_Pad {
+      margin: 20px 0;
+    }
+    .pricing_containerTop {
+      padding-top: 50px !important;
+      width: 100%;
+      transition: opacity 0.5s ease;
+      box-sizing: border-box;
+      padding-left: 68.5px;
+      padding-right: 68.5px;
+      overflow: hidden;
+      padding-bottom: 55px !important;
+      background: url(http://apusthemes.com/wp-demo/cowork/wp-content/uploads/2017/04/pricing-bg.jpg?id=2079) left top no-repeat !important;
+    }
+    .aboutUs_containerPage{
+      display: none;
+    }
+    .aboutusPageContainerText {
+      width: 100%;
+      background: #fff;
+      padding: 0px 0 60px 0;
+      margin-top: 70px;
+    }
+    form [type="submit"] {
+      background: #fff;
+      position: relative;
+      z-index: 9;
+      color: #fff;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      overflow: hidden;
+      color: #000000;
+      margin-top: 2px;
+      border-radius: 0px !important;
+      -webkit-transform: translateX(-1px);
+      -ms-transform: translateX(-1px);
+      -o-transform: translateX(-1px);
+      transform: translateX(-1px);
+    }
+
+    text-area.form-control.contact_formControl{
+      height: 70px !important;
+    }
+    .faqPage_title {
+      position: relative;
+      font-size: 19px;
+      font-weight: 800;
+      color: #000;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 70px;
+    }
+    .btn-group{
+      position: relative;
+      display: -ms-block;
+      display: block;
+      vertical-align: middle;
+    }
+    label.btn.btn-secondary.btn_groupSingle{
+      margin: 10px 0 !important;
+    }
+    select.form-control.contact_formControl{
+      margin: 10px 0;
     }
   }
 

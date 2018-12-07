@@ -24,6 +24,13 @@ img {
 div.mt-3{
     margin-top: 35px !important;
 }
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+  .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
 /* header css starts here */
 .header {
     position: absolute;
@@ -1808,5 +1815,33 @@ span.facilityIcon_textLogin{
 div.tab-pane.active.show{
     border: #333 solid 1px !important;
 }
-
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+form .form-control {
+    height: 50px;
+    border-width: 2px;
+    border-color: #1e1e1e;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+form [type="submit"] {
+    background: #fff;
+    position: relative;
+    z-index: 9;
+    color: #fff;
+    width: 50px;
+    height: 46px;
+    padding: 0;
+    overflow: hidden;
+    color: #000000;
+    margin-top: 2px;
+    border-radius: 0px !important;
+    -webkit-transform: translateX(-1px);
+    -ms-transform: translateX(-1px);
+    -o-transform: translateX(-1px);
+    transform: translateX(-1px);
+}
 /* end login signup page section */
