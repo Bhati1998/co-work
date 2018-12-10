@@ -385,6 +385,8 @@ div.col-sm-6.aboutImg_Mp, div.col-sm-12.aboutImg_Mp{
     font-weight: 300;
     text-transform: uppercase;
     transition: all ease-in-out 0.3s;
+    text-decoration: none;
+    color: #2A2A2A;
 }
 
 .about_Btn:focus,
@@ -392,6 +394,7 @@ div.col-sm-6.aboutImg_Mp, div.col-sm-12.aboutImg_Mp{
     background-color: #2A2A2A; 
     color: #fff;
     border: #2A2A2A solid 2px;
+    text-decoration: none;
 }
 
 .img-zoom-in img 
@@ -428,7 +431,18 @@ div.col-sm-6.aboutImg_Mp, div.col-sm-12.aboutImg_Mp{
     background-position: 0 0 !important;
     background-repeat: no-repeat !important;
 }
-
+.fullWidth_Section_new{
+    width: 100%;
+    background: #fff;
+    color: #333;
+    margin-top: 75px !important;
+    padding-top: 74px !important;
+    padding-bottom: 74px !important;
+    background-image: url(http://apusthemes.com/wp-demo/cowork/wp-content/uploads/2017/04/twitter.jpg?id=171) !important;
+    background-position: 0 0 !important;
+    background-repeat: no-repeat !important;
+    min-height: 400px;
+}
 .fullWidth_inner {
     box-sizing: border-box;
     padding-left: 1.5px;
@@ -823,6 +837,7 @@ div.col-sm-6.aboutImg_Mp, div.col-sm-12.aboutImg_Mp{
 .event_item{
     width: 100%;
     padding: 20px 30px 20px 30px;
+    margin-bottom: 50px;
 }
 
 .event_item .media-left {
@@ -912,12 +927,14 @@ div.col-sm-6.aboutImg_Mp, div.col-sm-12.aboutImg_Mp{
     font-size: 16px;
     border-radius: 0;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .checkAll_Event:hover{
     background-color: #2A2A2A;
     color: #fff;
     border: #2A2A2A solid 2px;
+    text-decoration: none;
 }
 /* event section ends here */
 /* gallery starts here */
@@ -1103,10 +1120,11 @@ footer p {
 }
 
 .social_footer_ul { 
-    display:none;
-    /* display:table; */
-    margin:15px auto 0 auto; 
-    list-style-type:none;  }
+    display: table;
+    margin: 15px 0 0 0;
+    list-style-type: none;
+    padding-left: 0;
+  }
 .social_footer_ul li { 
     padding-left:20px;
     padding-top:10px; 
