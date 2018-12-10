@@ -1855,4 +1855,23 @@ form [type="submit"] {
     width: auto !important;
     height: auto !important;
 }
+.otp_label{
+    display: block;
+}
+.inputs { 
+    width: 100px; 
+    text-align: center;
+    margin: 5px; 
+    border: none; 
+    border-bottom: #000 solid 1px; 
+    background: transparent;  
+}
+
+.btn_block{
+    display: block;
+    text-align: center;
+}
+.mr-30{
+    margin-right: 27px;
+}
 /* end login signup page section */
