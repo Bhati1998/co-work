@@ -1874,4 +1874,9 @@ form [type="submit"] {
 .mr-30{
     margin-right: 27px;
 }
+
+.aboutpage-title > i.fa-check-circle-o{
+    color: #2abb8d !important;
+    display: block;
+}
 /* end login signup page section */
