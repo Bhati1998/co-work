@@ -69,6 +69,12 @@ $(document).ready(function(){
       $(function () {
         $('#myTab li:first-child a').tab('show')
       });
+
+      $(".inputs").keyup(function () {
+        if (this.value.length == this.maxLength) {
+          $(this).next('.inputs').focus();
+        }
+      });
       
   });
 
