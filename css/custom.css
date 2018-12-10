@@ -1844,4 +1844,15 @@ form [type="submit"] {
     -o-transform: translateX(-1px);
     transform: translateX(-1px);
 }
+
+.btn.btn_groupSingle.btn-primary{
+    background: transparent !important;
+    color: #333 !important;
+    border-radius: 0 !important;
+    padding: 17px 35px !important;
+    margin: 0 20px 0 0 !important;
+    border: #333 solid 2px !important;
+    width: auto !important;
+    height: auto !important;
+}
 /* end login signup page section */
