@@ -1898,3 +1898,44 @@ form [type="submit"] {
     display: block;
 }
 /* end login signup page section */
+
+/* new*/
+
+.start-multiDrop{
+    color: #fff;
+    line-height: 30px;
+}
+
+.start-multiDrop:focus,
+.start-multiDrop:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.second-dropdown-level{
+    color: #333;
+}
+
+.second-dropdown-level:focus,
+.second-dropdown-level:hover{
+    color: #838383;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 767px) {
+    .collapse ul li:hover> ul{display:block}
+    .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+    /*******/
+    .collapse ul ul li{position:relative}
+    .collapse ul ul li:hover> ul{display:block}
+    .collapse ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none}
+    /*******/
+    /* .collapse ul ul ul li{position:relative}
+    .collapse ul ul ul li:hover ul{display:block}
+    .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1} */
+    
+    }
+@media only screen and (max-width: 767px) {
+.navbar-nav .show .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 35px}
+.navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 45px}
+}

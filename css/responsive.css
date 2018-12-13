@@ -213,3 +213,34 @@
         max-width: 100% !important;
     }
   }
+
+  @media(max-width:900px) {
+    .navbar-nav{
+      background: rgb(245, 99, 99);
+      padding: 20px 0;
+    }
+    .navbar .navbar-brand {
+      float:none;
+      display: inline-block;
+    }
+    .navbar .navbar-nav>.nav-item { 
+      float: none; 
+      margin-left: .1rem;
+    }
+    .navbar .navbar-nav {
+      float:none !important;
+    }
+    .nav-item{
+      width:100%;
+      text-align:left;
+    } 
+    .navbar-toggler {
+      display: block !important;
+    }
+    .navbar-toggleable-sm.collapse {
+      display:none !important
+    }
+    .navbar-toggleable-sm.collapse.in {
+      display:block !important
+    }
+  }
