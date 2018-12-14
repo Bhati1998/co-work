@@ -943,6 +943,11 @@ div.col-sm-6.aboutImg_Mp, div.col-sm-12.aboutImg_Mp{
     width: 100%;
     padding: 20px;
 }
+
+.galleryMain_ClsOffice-detail{
+    width: 100%;
+    padding: 60px 20px 20px 20px;
+}
 .col-lg-2.thumb {
     padding: 3px;
 }
@@ -1899,7 +1904,7 @@ form [type="submit"] {
 }
 /* end login signup page section */
 
-/* new*/
+/* multilevel dropdown css*/
 
 .start-multiDrop{
     color: #fff;
@@ -1921,21 +1926,65 @@ form [type="submit"] {
     color: #838383;
     text-decoration: none;
 }
+/* multilevel dropdown css end*/
 
-@media only screen and (min-width: 767px) {
-    .collapse ul li:hover> ul{display:block}
-    .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
-    /*******/
-    .collapse ul ul li{position:relative}
-    .collapse ul ul li:hover> ul{display:block}
-    .collapse ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none}
-    /*******/
-    /* .collapse ul ul ul li{position:relative}
-    .collapse ul ul ul li:hover ul{display:block}
-    .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1} */
-    
-    }
-@media only screen and (max-width: 767px) {
-.navbar-nav .show .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 35px}
-.navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 45px}
+
+/* office detail page css starts here */
+
+.search-bar-main{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    background: #fff;
 }
+
+.search-bar-inner{
+    padding: 20px 20px !important;
+    height: 60px !important;
+    border: #000 solid 2px !important;
+}
+
+
+.input-btn-searchbar{
+    padding: 0 30px !important;
+    border: #000 solid 2px !important;
+    border-left: none !important;
+}
+.input-group-append {
+    margin-left: -3px !important;
+}
+
+.amenities-main{
+    width: 100%;
+    padding: 50px 0;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:20px 10px;
+    margin:20px 0px;
+}
+.amenities-icon{
+    text-align: center;
+}
+.amenities-title{
+    margin: 20px 0;
+}
+
+.facility-main{
+    width: 100%;
+    padding: 50px 0;
+    background: rgb(247, 247, 247);
+    margin: 0 auto;
+}
+
+.pricing-tabs-main{
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 50px 0;
+}
+/* office detail page css ends here */
