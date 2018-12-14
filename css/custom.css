@@ -2073,3 +2073,21 @@ li.textLi-font{
     padding: 0 0 40px 0;
 }
 /* office detail page css ends here */
+
+/* booking space page css starts here */
+.booking-space-main{
+    width: 100%;
+    background: #fff;
+}
+
+.accordion-btn-width{
+    width: 100%;
+    text-align: left !important;
+}
+.spanTextRIght{
+    margin-left: 15px;
+    color: red;
+    text-decoration: none;
+}
+
+/* booking space page ends here */
