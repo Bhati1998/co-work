@@ -1987,4 +1987,84 @@ form [type="submit"] {
     background: #fff;
     padding: 50px 0;
 }
+
+.pricing-tab-nav{
+    width: 100%;
+    margin-bottom: 15px;
+}
+a.nav-item.pricingtab-link.nav-link.active{
+    border:#ccc solid 1px !important;
+    border-bottom: none !important;
+    border-top: red solid 3px !important; 
+}
+
+div.tab-pane.pricingtab-content.px-4.py-4.fade.show.active{
+    border: #ccc solid 1px !important;
+    border-radius: 4px;
+}
+
+.pricingtab-w-100{
+    width: 100%;
+}
+
+.pricingtab-termsbottom{
+    width: 100%;
+    display: block;
+}
+
+.table-above-title{
+    display: block !important;
+}
+
+ul.termsandCondition{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.termsandCondition > li{
+    display: block;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+ul.termsandCondition > li::before{
+    content: "*";
+    font-weight: bold;
+    color: #000;
+    margin-right: 6px;
+    vertical-align: -moz-middle-with-baseline;
+    line-height: 30px;
+}
+
+.list-section-right{
+    width: 100%;
+}
+
+.list-section-right ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.list-section-right ul li{
+    display: block;
+    padding: 15px 0
+}
+
+.list-section-right ul li span{
+    margin-right: 10px;
+}
+.list-section-right ul li span > i.fa{
+    color: #000;
+    font-size: 20px;
+}
+
+.m--pzero{
+    margin: 0px;
+    padding: 0px;
+}
+li.textLi-font{
+    font-size: 12px;
+}
 /* office detail page css ends here */
