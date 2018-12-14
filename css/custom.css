@@ -2067,4 +2067,9 @@ ul.termsandCondition > li::before{
 li.textLi-font{
     font-size: 12px;
 }
+
+.google-map-sectionMain{
+    width: 100%;
+    padding: 0 0 40px 0;
+}
 /* office detail page css ends here */
