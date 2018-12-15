@@ -2080,14 +2080,30 @@ li.textLi-font{
     background: #fff;
 }
 
-.accordion-btn-width{
+.btn.btn-link.accordion-btn-width{
     width: 100%;
     text-align: left !important;
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .spanTextRIght{
     margin-left: 15px;
-    color: red;
+    font-size: 15px !important;
+    color: red !important;
     text-decoration: none;
 }
 
+.btn.btn-link.accordion-btn-width:hover,
+.btn.btn-link.accordion-btn-width:focus{
+    color: #000;
+    text-decoration: none;
+}
+
+.accordion-cardHeader{
+    background: transparent !important;
+}
+.smallContent-genderbot{
+    display: block;
+}
 /* booking space page ends here */
