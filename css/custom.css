@@ -2086,6 +2086,7 @@ li.textLi-font{
     color: #000;
     font-size: 20px;
     text-transform: uppercase;
+    overflow: hidden;
 }
 .spanTextRIght{
     margin-left: 15px;
@@ -2105,5 +2106,9 @@ li.textLi-font{
 }
 .smallContent-genderbot{
     display: block;
+}
+
+.input-grpWidth{
+    width:50% !important; text-align:center;
 }
 /* booking space page ends here */

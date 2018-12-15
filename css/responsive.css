@@ -215,6 +215,9 @@
   }
 
   @media(max-width:900px) {
+    div.input-grpWidth{
+      width:100% !important; text-align:center;
+    }
     .navbar-nav{
       background: rgb(245, 99, 99);
       padding: 20px 0;
