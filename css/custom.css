@@ -2112,3 +2112,48 @@ li.textLi-font{
     width:50% !important; text-align:center;
 }
 /* booking space page ends here */
+
+
+/* membership agrrement page css starts here  */
+
+.membership-form{
+    width: 100%;
+    padding: 10px 0 50px 0;
+}
+
+
+.start-from-heading{
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    padding: 20px 0 25px 0;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: #333 solid 4px;
+}
+
+.start-from-heading > small{
+    font-size: 16px;
+    display: block;
+}
+
+.subheading-form{
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    padding: 20px 0 30px 0;
+}
+
+.memebership-form-input{
+    height: 60px !important;
+    border-radius: 0 !important;
+    border: #b9b9b9 solid 2px !important;
+}
+.memebership-form-textarea{
+    border-radius: 0 !important;
+    border: #b9b9b9 solid 2px !important;
+}
+/* membership css ends here */
