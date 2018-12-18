@@ -2156,4 +2156,37 @@ li.textLi-font{
     border-radius: 0 !important;
     border: #b9b9b9 solid 2px !important;
 }
+
+.membership-Joing{
+    background: #f3f1f1;
+    padding: 0 30px 30px 30px;
+}
+
+p.miniDetailsList {
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px;
+    border-bottom: 1px solid #ecf3f7;
+    padding: 12px 12px;
+}
+span.outputTitless {
+    font-size: 12px;
+    color: #000000c7;
+}
+
+span.outputDetails {
+    float: right;
+    width: auto;
+    text-align: center;
+    color: #00000082;
+    font-weight: 600;
+}
+
+.subheading-joining {
+    width: 100%;
+    display: block;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 10px 0 5px 18px;
+}
 /* membership css ends here */
