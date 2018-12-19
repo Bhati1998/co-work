@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="css/responsive.css"/>
     <link rel="stylesheet" href="css/slick.min.css"/>
     <link rel="stylesheet" href="css/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Montserrat:300i,400,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
 
@@ -100,98 +101,140 @@
     <!-- header ends here -->
 
     <!-- banner section starts here -->
-    <div class="faq_containerPage">
+    <div class="event_containerPage">
+        <div class="container">
+            <div class="pricing_banner">
+                <div class="pricingpage-title">
+                    Invoice
+                </div>
+                <div class="pricingpage-description">
+                    <p>
+                        Lorem Ipsum
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
         
     <!-- banner section ends here -->
 
-    <!-- contactform section starts -->
-    <section class="aboutusPageContainerText">
-            <div class="container">
-                <h1 class="aboutpage-title">
-                    REGISTER YOUR STARTUP        
-                </h1>
-                <p class="text-center">Be part of the largest startup community in the world</p>
-                <br>
-                <form>
-                    <div class="form-group row gap_form">
-                        <label for="" class="col-sm-4 col-form-label">Startup Name</label>
-                        <div class="col-sm-8">
-                            <input type="text" class="form-control contact_formControl" id="" value="">
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="form-group row gap_form">
-                        <label for="" class="col-sm-4 col-form-label">YEAR FOUNDED</label>
-                        <div class="col-sm-3">
-                            <select id="" class="form-control contact_formControl">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                        <div class="col-sm-3">
-                            <select id="" class="form-control contact_formControl">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <div class="form-group row gap_form">
-                        <label for="" class="col-sm-4 col-form-label">FOUNDER NAME</label>
-                        <div class="col-sm-8">
-                            <input type="text" class="form-control contact_formControl" id="" value="">
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="form-group row gap_form">
-                        <label for="" class="col-sm-4 col-form-label">SELECT ROOM</label>
-                        <div class="col-sm-8">
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                <label class="btn btn-secondary btn_groupSingle active">
-                                    <input type="radio" name="options" id="option1" autocomplete="off" checked> SHARED DESK
-                                </label>
-                                <label class="btn btn-secondary btn_groupSingle">
-                                    <input type="radio" name="options" id="option2" autocomplete="off"> PRIVATE DESK
-                                </label>
-                                <label class="btn btn-secondary btn_groupSingle">
-                                    <input type="radio" name="options" id="option3" autocomplete="off"> PRIVATE ROOM
-                                </label>
+    <!-- membership form section starts here -->
+    <section class="amenities-main">
+        <div class="container">
+            <!-- <h1 class="about_title"></h1> -->
+            <div class="description">
+                <p></p>
+                <small></small>
+            </div>
+            <div class="membership-form">
+                <h2 class="start-from-heading text-center">Invoice</h2>
+                <div class="row mx-0">
+                    <div class="innerBookingInvoice">
+                        <div class="card_invoice card_invoice-body printableArea">
+                            <div class="invoiceLogoDiv">
+                                <h3><b>Unique id</b> : #ORD6424994303 </h3>
                             </div>
-                            
+
+                            <div class="row colsInvoicer mx-0 px-0">
+                                
+                                    <div class="col-md-6">
+                                        <p class="miniDetailsList">
+                                            <span class="acountTitless">Company name</span> 
+                                            <span class="outputDetails">String</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="miniDetailsList">
+                                            <span class="acountTitless">Invoice Date</span> 
+                                            <span class="outputDetails">String</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="miniDetailsList">
+                                            <span class="acountTitless">Address</span> 
+                                            <span class="outputDetails">String</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <p class="miniDetailsList">
+                                            <span class="acountTitless">Booking Date</span> 
+                                            <span class="outputDetails">String</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <p class="miniDetailsList">
+                                            <span class="acountTitless">Plan Name</span> 
+                                            <span class="outputDetails">String</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <p class="miniDetailsList">
+                                            <span class="acountTitless">Duration / Start Date</span> 
+                                            <span class="outputDetails">06/11/18</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <p class="miniDetailsList">
+                                            <span class="acountTitless">Place Chosen</span> 
+                                            <span class="outputDetails">Udyog Vihar</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <p class="miniDetailsList">
+                                            <span class="acountTitless">Total No. Of Person Capacity</span> 
+                                            <span class="outputDetails">Udyog Vihar</span>
+                                        </p>
+                                    </div>
+
+                                    
+                                
+                            </div>
+
+                            <div class="row colsInvoicer mx-0 px-0 my-4">
+                                <div class="col-md-6">
+                                    <p class="miniDetailsList">
+                                        <span class="acountTitless">Price</span> 
+                                        <span class="outputDetails">100</span>
+                                    </p>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <p class="miniDetailsList">
+                                        <span class="acountTitless">Tax</span> 
+                                        <span class="outputDetails">12</span>
+                                    </p>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <p class="miniDetailsList">
+                                        <span class="acountTitless">Total</span> 
+                                        <span class="outputDetails">122</span>
+                                    </p>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <p class="miniDetailsList">
+                                        <span class="outputDetails">(Inclusive All Taxs)</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <hr>
-                    <div class="form-group row gap_form">
-                        <label for="" class="col-sm-4 col-form-label">MEMBERSHIP TIME</label>
-                        <div class="col-sm-4">
-                                <label for="">Start</label>
-                            <select id="" class="form-control contact_formControl">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                        <div class="col-sm-4">
-                                <label for="">Ends</label>
-                            <select id="" class="form-control contact_formControl">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                    </div>
-                        
-                </form>
-                
+                </div>
+
                 
             </div>
+
+        </div>
     </section>
-    
-    <!-- contactform section ends -->
 
+    <!-- membership form section ends here -->
 
-
-    
     <!-- footer starts here -->
     <footer class="footer">
             <div class="container bottom_border pt-4 pb-4">
@@ -291,12 +334,13 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/custom.js"></script>
-   
+    
 
     <!-- js end here -->
 

@@ -2189,4 +2189,175 @@ span.outputDetails {
     letter-spacing: 1px;
     padding: 10px 0 5px 18px;
 }
+.btn.btn-lg.btn_contactSubmit.btn-primary{
+    width: auto;
+    height: auto;
+}
+
+.credit-main-section{
+    width: 100%;
+    padding: 10px 0 50px 0;
+    background: #fff;
+}
+
 /* membership css ends here */
+
+
+/* myaccount css starts here  */
+.account-tab-left{
+background: transparent;
+border: #333 solid 1px;
+padding: 0px 0px;
+border-radius: 4px;
+margin: 0;
+color: #fff !important;
+}
+.account-tab-textnoActive{
+    color: #000000 !important;
+}
+
+.account-tab-rightsection{
+    border: #2c2c2c solid 1px !important;
+    border-radius: 4px !important;
+}
+
+.imgContent {
+    margin: 15px 0px;
+    position: relative;
+    text-align: center;
+}
+span.editAccountProffile {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    background: #ff9100;
+    padding: 3px 7px;
+    border-radius: 50%;
+    margin: 0px 0px 20px 30px;
+    cursor: pointer;
+}
+
+img.img-responsive.profilerImg {
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 1px solid #eaeef2;
+    background: #bccdde;
+}
+
+div#editmyaccountModel .card.navcardProfiler {
+    padding: 20px;
+    text-align: left;
+    background: #e9f0f4;
+    margin: 0px 10px;
+    position: absolute;
+    width: 94%;
+    left: 0;
+    margin-top: 10px;
+}
+
+div#editmyaccountModel h3.editFormtitlee {
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+div#editmyaccountModel button.editProSubmit {
+    background: #f57507;
+    border: 0px;
+    padding: 7px 40px;
+    font-size: 16px;
+    margin: 20px auto 0px;
+    display: inherit;
+    border-radius: 4px;
+    color: #fff;
+    outline: none;
+}
+
+.innerimgContent{
+    width: 100%;
+}
+
+span.acountTitless {
+    font-size: 15px;
+    color: #000000c7;
+}
+.form-control.editProInputss {
+    height: 25px !important;
+    padding: 10px 0 40px 10px;
+}
+.borderPP{
+    border: none !important;
+    padding: 20px 0;
+}
+
+.nav-link.account-tab-textnoActive.active{
+    background: linear-gradient(to right, #4776e6, #78d1ee);
+}
+
+.invoiceLogoDiv {
+    background: #e5e5e5;
+    text-align: left;
+    padding: 15px 20px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-no-border .card_invoice {
+    border: 0px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card_invoice {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.card_invoice {
+    margin-bottom: 30px;
+}
+.card_invoice {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+.card_invoice-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.innerBookingInvoice{
+    width: 100%;
+}
+.innerBookingInvoice h3 {
+    margin: 0px;
+}
+.invoiceLogoDiv h3 {
+    margin: 0px;
+    display: inline-block;
+    width: inherit;
+}
+
+.colsInvoicer {
+    background: #ecf3f7;    
+}
+.clasInvoi{
+    padding: 15px 10px;
+    display: inline;
+    
+}
+/* my account css ends here */

@@ -175,6 +175,26 @@ $(document).ready(function(){
 
 
 
+  $(document).ready(function(){
+    $("span#editAccountProffile").click(function(){
+        $("div#editmyaccountModel").toggle();
+    });
+
+    $('a#editbtn-id').click(function(){
+        $("div.edit-profileCls").toggle();
+    });
+
+    $('a#editbtn-id22').click(function(){
+      $("div.edit-profileCls22").toggle();
+    });
+
+  $('#credits_btn').click(function(){
+    $("div.credit-main-section").toggle();
+  })
+
+});
+
+
 
 
 

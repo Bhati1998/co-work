@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+
     .testimonials {
       max-height: 700px;
     }
@@ -36,7 +37,7 @@
       line-height: 30px;
     }
     a.navbar-brand > img {
-      width: 120px !important;
+      width: 114px !important;
       height: auto;
     }
     .about_title {
@@ -215,6 +216,109 @@
   }
 
   @media(max-width:900px) {
+    p.miniDetailsList {
+      display: inline-block;
+      width: 100%;
+      margin: 0px 0px;
+      border-bottom: 1px solid #ecf3f7;
+      padding: 5px 2px;
+    }
+    span.acountTitless {
+      font-size: 11px;
+      color: #000000c7;
+    }
+    .entry-titlepage {
+      color: #fff;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      line-height: 30px;
+      padding: 0 12px 12px 12px;
+    }
+    .entry-description {
+      font-size: 13px;
+      line-height: 1.5;
+      padding: 0 12px 12px 12px;
+    }
+    .nav-link.active > span.facilityTab-icon {
+      display: block;
+      width: 100%;
+      height: 70px;
+      border-radius: 50%;
+      padding: 0 0 10px 0;
+      border: transparent solid 1px;
+      align-items: center;
+      font-size: 25px;
+      line-height: 25px;
+      color: #333;
+      margin-bottom: 0px;  
+    }
+    .nav-link > span.facilityTab-icon {
+      display: block;
+      width: 100%;
+      height: 70px;
+      border-radius: 50%;
+      padding: 0 0 10px 0;
+      border: transparent solid 1px;
+      align-items: center;
+      font-size: 25px;
+      line-height: 25px;
+      color: #ababab;
+      margin-bottom: 0px;  
+    }
+    .btn-event {
+      width: 100%;
+      margin-top: 50px;
+      font-size: 14px !important;
+      background: transparent;
+      color: #1e1e1e;
+      padding: 17px 30px !important;
+      border: #1e1e1e solid 2px !important;
+      border-radius: 0 !important;
+    }
+    div.tab-row {
+      padding-top: 30px !important;
+      padding-right: 10px !important;
+      padding-bottom: 30px !important;
+      padding-left: 10px !important;
+    }
+    .start-from-heading {
+      width: 100%;
+      font-size: 22px;
+      letter-spacing: 2px;
+      line-height: 30px;
+      padding: 20px 0 10px 0;
+      margin-bottom: 20px;
+      text-align: left;
+      border-bottom: #333 solid 4px;
+    }
+    button.btn.btn-subscribe{
+      width: 50px;
+      height: 46px;
+    }
+    span.outputDetails {
+      float: right;
+      width: auto;
+      text-align: center;
+      color: #00000082;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 25px;
+    }
+    .subheading-form {
+      width: 100%;
+      display: block;
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 32px;
+      padding: 20px 0 10px 0;
+    }
+    .membership-Joing {
+      background: #f3f1f1;
+      padding: 0 10px 30px 10px;
+    }
     div.input-grpWidth{
       width:100% !important; text-align:center;
     }
