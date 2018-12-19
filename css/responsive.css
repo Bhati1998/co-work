@@ -216,6 +216,35 @@
   }
 
   @media(max-width:900px) {
+    .owl-nav .owl-prev {
+      position: absolute;
+      top: 21%;
+      left: 0;
+      display: none;
+    }
+    .owl-nav .owl-next {
+      position: absolute;
+      top: 21%;
+      right: 0px;
+      display: none;
+    }
+    .fullWidth_inner {
+      box-sizing: border-box;
+      padding-left: auto;
+      padding-right:  auto;
+      width: auto;
+    }
+    .eventRight_heading {
+      font-size: 39px;
+      font-weight: 800;
+      margin: 58px 0 46px;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: #323232;
+      opacity: 0.1;
+      filter: alpha(opacity=10);
+      padding-left: 30px;
+  }
     p.miniDetailsList {
       display: inline-block;
       width: 100%;
