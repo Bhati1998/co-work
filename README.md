@@ -20,8 +20,6 @@
 - Cross Browser Compatibility Checking
 - UI Design
 - Front End Development
-- Photoshop Designs
-- Logo Design
 
 
 ### Screenshots
