@@ -15,6 +15,7 @@
 
 ### Responsibility
 - Template Design
+- Pre-Defined Class Names CSS
 - Bug Fixing
 - Responsive Design Check
 - Cross Browser Compatibility Checking
