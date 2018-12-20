@@ -430,6 +430,7 @@ div.col-sm-6.aboutImg_Mp, div.col-sm-12.aboutImg_Mp{
     background-image: url(http://apusthemes.com/wp-demo/cowork/wp-content/uploads/2017/04/calltoaction-bg.jpg?id=80) !important;
     background-position: 0 0 !important;
     background-repeat: no-repeat !important;
+    background-size: cover;
 }
 .fullWidth_Section_new{
     width: 100%;
@@ -577,7 +578,7 @@ div.col-sm-6.aboutImg_Mp, div.col-sm-12.aboutImg_Mp{
 }
 
 .b-price-plan__item{
-	padding: 15px 30px;	
+	padding: 15px 0px;	
 }
 
 .b-price-plan__head{
