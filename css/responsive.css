@@ -774,4 +774,8 @@
   }
 } 
 
-
+@media(max-width:992px){
+  .headin5_amrc.col_white_amrc.pt2{
+    font-size: 15px;
+  }
+}

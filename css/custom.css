@@ -2357,4 +2357,8 @@ span.acountTitless {
     display: inline;
     
 }
+
+div.owl-controls{
+    width: 100%;
+}
 /* my account css ends here */
