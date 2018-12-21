@@ -31,6 +31,11 @@ div.mt-3{
   .navbar-toggler-icon:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
   }
+
+  .collapse.navbar-collapse.right_Content {
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+}
 /* header css starts here */
 .header {
     position: absolute;
@@ -1133,7 +1138,8 @@ footer p {
   }
 .social_footer_ul li { 
     padding-left:20px;
-    padding-top:10px; 
+    padding-top:10px;     
+    margin-top: 10px;
     float:left; 
 }
 .social_footer_ul li a { 
